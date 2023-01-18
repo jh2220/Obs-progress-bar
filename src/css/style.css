@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+  padding: 0;
+  margin: 0 auto;
+  background-color: #0099ff;
+}
+
+.mainProgressBox {
+  background-color: #fbfbfb;
+  border: 1.6px solid #838389;
+}
+
+.mainProgressBox > h1 {
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+
+  margin: 0;
+  background-color: #e9eaec;
+  color: #838389;
+  height: 50px;
+  font-size: 18px;
+  font-weight: 600;
+  border-bottom: 1.8px #a5a6ab solid;
+}
+
+.containderProgressBar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #6b6b74;
+  min-height: 130px;
+}
+
+.containderProgressBar > p {
+  margin: 10px;
+  margin-top: 30px;
+  text-transform: uppercase;
+}
+
+.containerProgressBarButtons {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.containerProgressBarButtons > p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #9696a1;
+  background: #eaeceb;
+  width: 70px;
+  height: 28px;
+  margin-right: 20px;
+}
+
+.blockedButton {
+  color: #8d8d9b;
+  background: #f4f7f6;
+  border: 1px solid #d0d0d4 !important;
+}
+
+#container {
+  margin: 20px;
+  width: 400px;
+  height: 13px;
+}
